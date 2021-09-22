@@ -1,0 +1,79 @@
+body{
+  background-color: #393E46;
+
+
+}
+.player >div{
+  color:#FFFFFF;
+  border-radius: 20px;
+   background-color: #57CC99;
+   margin-right: 10px;
+}
+.heading >h1{
+  color:#4ECCA3;
+  font-family: 'Lobster', cursive;
+}
+#board{
+  width:60vw;
+  display:flex;
+  flex-wrap:wrap;
+  font-size: 80px;
+}
+.box{
+  display:flex;
+  height:20vh;
+  width:20vw;
+  justify-content: center;
+  align-items:center;
+  color:#80ED99;
+  cursor:pointer;
+
+}
+ /* For animation on board */
+.ani{
+  animation:fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+.playerBox{
+  text-align:center;
+}
+.restart{
+  color:#E8F0F2;
+  width:10vw;
+  background-color:#80ED99;
+  border-radius:20px;
+}
+footer{
+  color:#FFFFFF;
+  text-align:center;
+  font-family: 'Indie Flower', cursive;
+}
+footer >p{
+  letter-spacing:2px;
+}
