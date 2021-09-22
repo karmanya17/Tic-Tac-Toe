@@ -64,10 +64,14 @@ body{
   text-align:center;
 }
 .restart{
-  color:#E8F0F2;
+  color:#393E46;
   width:10vw;
   background-color:#80ED99;
   border-radius:20px;
+}
+.restart >p{
+  font-weight: bolder;
+  font-family: 'Indie Flower', cursive;
 }
 footer{
   color:#FFFFFF;
